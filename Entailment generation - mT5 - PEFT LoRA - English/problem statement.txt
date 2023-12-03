@@ -1,0 +1,15 @@
+The task is to build a model capable of generating text that is a logical consequence (entailment) of a given base text (premise).
+
+Given:
+
+•	Training and validation samples (train.csv and val.csv) from the Textual Entailment Recognition for Russian dataset (TERR from RussianSuperGLUE). In the provided files, each base text (premise) is associated with a hypothesis and indicated whether it is a logical consequence (entailment) or not.
+•	A set of random texts (test.csv).
+
+Task:
+Create a model that takes the base text as input and generates new text that is a logical consequence of the base. In some way, assess its quality using the provided data.
+Generate 10 logically correct statements for each text in the file test.csv
+
+Format of the results:
+
+•	A Jupyter Notebook with the code for training the model, assessing its quality, and the text generation loop. It is desirable to make the code fully reproducible.
+•	The test.csv file with an added field containing a logically correct statement for each text.
